@@ -18,7 +18,7 @@ export default function AdminDashboard() {
     try {
       const token = localStorage.getItem("token");
 
-      const response = await fetch("http://localhost:3001/monitored-users", {
+      const response = await fetch("https://pet-backend2.onrender.com/monitored-users", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
