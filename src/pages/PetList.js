@@ -95,7 +95,7 @@ const PetList = ({ pets, setPets }) => {
       }}>
         {/* Title */}
         <h1 style={{ margin: 0, fontSize: "35px", display: "flex", alignItems: "center", color: "#333", gap: "10px" }}>
-          <span role="img" aria-label="paw">🐾</span> 🐶 Adopt a Pet! 
+          <span role="img" aria-label="paw">🐾</span> 🐶 Adopt a Pet! :)
         </h1>
 
         {/* Controls */}
